@@ -7,11 +7,9 @@ import (
 )
 
 func PrintStaff(staff []types.Employee) {
-	var str string
+
 	for i := 0; i < len(staff); i++ {
-		// str = fmt.Sprintf("Name: %s; Age: %d; ", staff[i].Name, staff[i].Age)
 		fmt.Println(staff[i])
 	}
 
-	fmt.Println(str)
 }
